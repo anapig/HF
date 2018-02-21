@@ -1,0 +1,31 @@
+
+<!-- cette vue est une vue dite d'etat , elle est requise par 
+le connectController de spring social
+ est afficher lorsque la connexion avec facebook 
+n'est pas encore etablie, cette vue a pour role d'envoyer une requete 
+de type POST à "/connect/facebook" et cela permet de declencger 
+un mecanisme interne gerer par le controlleur spring   -->
+
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Hello Facebook</title>
+<link rel="stylesheet" type="text/css"
+	href="../../static/css/bootstrap.min.css"
+	th:href="@{css/bootstrap.min.css}" />
+</head>
+<body>
+	<h3>Connect to Facebook</h3>
+
+	<form action="/connect/facebook" method="POST">
+
+		<!--cette input 'scope' permet de definir les elements qui seront 
+		autoriser dans lechange entre facebook et le controlleur spring -->
+		<input type="hidden" name="scope" value="user_posts,user_photos" /> <input
+			class="btn btn-primary col-md-offset-4" value="connect to facebook"
+			type="submit" />
+
+	</form>
+</body>
+</html>
