@@ -1,0 +1,33 @@
+<div class="panel panel-default">
+  <div class="panel-heading">ALbums</div>
+  <div class="panel-body">
+    <ul *ngIf="albums" else noData>
+      <ul *ngFor="let album of albums" class="nav nav-pills">
+
+        <li><a (click)="getPhotos(album.id)" class="clickable">{{album.name}}</a></li>
+
+      </ul>
+    </ul>
+  </div>
+
+  <h3>
+    <ng-template #noData>No Album Available</ng-template>
+  </h3>
+</div>
+
+<div class="panel panel-default">
+
+  <div *ngIf="pics$ | async as pics else noDataPrime">
+    <div class="panel-heading">Pictures</div>
+    <div class="panel-body row">
+      <div *ngFor="let pic of pics" class="col-md-3 col-lg-2 col-sm-6">
+
+        <img src="{{pic.images[2]?.source}}" class="img-thumbnail">
+
+      </div>
+    </div>
+    <h3>
+      <ng-template #noDataPrime>Choose an album please</ng-template>
+    </h3>
+  </div>
+</div>
