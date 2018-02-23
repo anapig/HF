@@ -1,27 +1,25 @@
 # HfApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.7.
+# Bref description :
 
-## Development server
+l'pplication est devisee en deux partie :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- partie back-end : cette partie est basee sur spring boot , elle permet de creer un nouveau compte ,ou si l'utilisateur est deja inscrit,elle lui permet de s'authentifier , apres l'authentification sur l'application se dernier essaye de se connecter à son compte facebook , si la connection est reussie lutilisateur sera rediriger vers la gallerie(deuxieme partie). 
 
-## Code scaffolding
+- partie front-end : cette partie est basee sur angular 4 , il permet dans un premier temps , en communiquant avec le back-end , d'aficher la listes des album de l'utilisateur connecté , qaund l'utilisateur choisi un album , toutes les photos presente dans cet album son afficher.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# technologie utilisee :
 
-## Build
+ - Spring Boot
+ - Angular 4 
+ 
+ # outils et environnemnt :
+ 
+ - java 8 
+ - spring boot 1.5.9
+ - angular-cli 
+ - sts
+ - webStorm 2017.2
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
