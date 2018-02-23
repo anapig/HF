@@ -19,7 +19,6 @@ l'pplication est divisee en deux partie :
  - java 8 
  - spring boot 1.5.9
  - angular-cli 1.6.7
- - bootstrap 4
  
 
 
