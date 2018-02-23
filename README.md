@@ -2,7 +2,7 @@
 
 # Bref description :
 
-l'pplication est devisee en deux partie :
+l'pplication est divisee en deux partie :
 
 - partie back-end : cette partie est basee sur spring boot , elle permet de creer un nouveau compte ,ou si l'utilisateur est deja inscrit,elle lui permet de s'authentifier , apres l'authentification sur l'application se dernier essaye de se connecter à son compte facebook , si la connection est reussie lutilisateur sera rediriger vers la gallerie(deuxieme partie). 
 
@@ -14,12 +14,12 @@ l'pplication est devisee en deux partie :
  - Angular 4 
  
  # outils et environnemnt :
- 
+ - sts
+ - webStorm 2017.2
  - java 8 
  - spring boot 1.5.9
  - angular-cli 
- - sts
- - webStorm 2017.2
+ 
 
 
 
