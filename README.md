@@ -18,7 +18,8 @@ l'pplication est divisee en deux partie :
  - webStorm 2017.2
  - java 8 
  - spring boot 1.5.9
- - angular-cli 
+ - angular-cli 1.6.7
+ - bootstrap 4
  
 
 
