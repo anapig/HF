@@ -1,19 +1,18 @@
 # HfApp
 
-# Breve description :
+# Brève description :
 
-l'pplication est divisee en deux partie :
+L’application est divisée en deux parties :
 
-- partie back-end : cette partie est basee sur spring boot , elle permet de creer un nouveau compte ,ou si l'utilisateur est deja inscrit,elle lui permet de s'authentifier , apres l'authentification sur l'application se dernier essaye de se connecter à son compte facebook , si la connection est reussie lutilisateur sera rediriger vers la gallerie(deuxieme partie). 
+- partie back-end : cette partie est basée sur spring boot, elle permet de créer un nouveau compte, ou si l'utilisateur est déjà inscrit, elle lui permet de s’authentifier, après l'authentification sur l'application se dernier essaye de se connecter à son compte Facebook, si la connexion est réussie l’utilisateur sera rediriger vers la gallérie (deuxième partie). 
 
-- partie front-end : cette partie est basee sur angular 4 , il permet dans un premier temps , en communiquant avec le back-end , d'aficher la listes des album de l'utilisateur connecté , qaund l'utilisateur choisi un album , toutes les photos presente dans cet album son afficher.
+- partie front-end : cette partie est basée sur angular 4, elle permet dans un premier temps, en communiquant avec le back-end, d'afficher la listes des albums de l'utilisateur connecté, quand l'utilisateur choisi un album, toutes les photos présentes dans cet album sont affichées.
 
-# technologie utilisee :
-
+# Technologies utilisées:
  - Spring Boot
  - Angular 4 
  
- # outils et environnemnt :
+ # Outils et environnement :
  - sts 3.9.1
  - webStorm 2017.2.2
  - java 8 
