@@ -4,7 +4,7 @@
 
 L’application est divisée en deux parties :
 
-- partie back-end : cette partie est basée sur spring boot, elle permet de créer un nouveau compte, ou si l'utilisateur est déjà inscrit, elle lui permet de s’authentifier, après l'authentification sur l'application se dernier essaye de se connecter à son compte Facebook, si la connexion est réussie l’utilisateur sera rediriger vers la gallérie (deuxième partie). 
+- partie back-end : cette partie (le dossier testO) est basée sur spring boot, elle permet de créer un nouveau compte, ou si l'utilisateur est déjà inscrit, elle lui permet de s’authentifier, après l'authentification sur l'application se dernier essaye de se connecter à son compte Facebook, si la connexion est réussie l’utilisateur sera rediriger vers la gallérie (deuxième partie). 
 
 - partie front-end : cette partie est basée sur angular 4, elle permet dans un premier temps, en communiquant avec le back-end, d'afficher la listes des albums de l'utilisateur connecté, quand l'utilisateur choisi un album, toutes les photos présentes dans cet album sont affichées.
 
