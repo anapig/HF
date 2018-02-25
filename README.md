@@ -1,6 +1,6 @@
 # HfApp
 
-# Bref description :
+# Breve description :
 
 l'pplication est divisee en deux partie :
 
@@ -14,8 +14,8 @@ l'pplication est divisee en deux partie :
  - Angular 4 
  
  # outils et environnemnt :
- - sts
- - webStorm 2017.2
+ - sts 3.9.1
+ - webStorm 2017.2.2
  - java 8 
  - spring boot 1.5.9
  - angular-cli 1.6.7
